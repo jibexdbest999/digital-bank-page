@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --Blue950: hsl(233, 26%, 24%);
+  --Green500: hsl(136, 64%, 51%);
+  --Cyan400: hsl(192, 69%, 51%);
+
+  --Gray600: hsl(233, 8%, 62%);
+  --Gray100: hsl(220, 16%, 96%);
+  --Gray50: hsl(0, 0%, 98%);
+  --White: hsl(0, 100%, 100%);
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+}
+
+h3:hover {
+  cursor: pointer;
+  color: var(--Green500);
+}
+
+button {
+  background: linear-gradient(to right, var(--Cyan400), var(--Green500));
+  color: var(--White);
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
